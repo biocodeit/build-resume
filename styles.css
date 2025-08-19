@@ -1,0 +1,85 @@
+* {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.Intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.IntroChild {
+    padding: 5px;
+    border-right: 1px black solid;
+
+}
+
+hr {
+  border-top: 2px solid ;
+}
+
+.DegreeName {
+    display: flex;
+    gap: 5px;
+
+}
+
+.Duration {
+    display: flex;
+    gap: 5px;
+}
+
+.Duration > :first-child::after {
+  content: ' - ';
+}
+
+.ForDuration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.roleINcompany {
+    display: flex;
+    gap: 5px;
+}
+
+.roleINcompany > :first-child::after {
+    content: ' @ ';
+    font-weight: bold;
+}
+
+.experience .body {
+    padding-top: 10px;
+}
+
+.edu, .project, .acheivement, .Exp {
+    position: relative;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.edu::before,
+.project::before,
+.acheivement::before,
+.Exp::before {
+    content: ".";
+    position: absolute;
+    left: 0; 
+    font-size: 40px;
+    line-height: 0.5px; 
+    top: 8px;                   /* vertical center */
+}
+
+.title {
+    padding-bottom: 5px;
+}
+
+.tools {
+    padding-bottom: 2px;
+}
