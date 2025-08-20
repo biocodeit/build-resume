@@ -4,7 +4,7 @@ Intro_data = {name :"Glen Joshwa Coelho",
             phone : "+91 9901856921",
             email : "glencoelho135@gmail.com",
             github : "https://github.com/biocodeit",
-            website : "www.git.com/glen-coelho",
+            website : "https://biocodeit.github.io/glencoelho.github.io/",
             linkdin : "https://www.linkedin.com/in/glen-coelho-160aba215",
             summary: `Bioinformatician with a strong foundation in
 computational biology and hands-on experience in
