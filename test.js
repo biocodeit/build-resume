@@ -5,13 +5,27 @@ Intro_data = {name :"Glen Joshwa Coelho",
             email : "glencoelho135@gmail.com",
             github : "https://github.com/biocodeit",
             website : "www.git.com/glen-coelho",
-            linkdin : "https://www.linkedin.com/in/glen-coelho-160aba215"}
+            linkdin : "https://www.linkedin.com/in/glen-coelho-160aba215",
+            summary: `Bioinformatician with a strong foundation in
+computational biology and hands-on experience in
+molecular simulations. During my time as a Research
+Assistant at Quantumzyme, I worked on biocatalysis
+projects using tools like GROMACS, AutoDock, Modeller,
+and ORCA, building a solid understanding of molecular
+modeling and Linux-based workflows.
+Recently, I’ve been deepening my skills in Python to build
+reusable, modular scripts for automating simulation
+pipelines — giving me flexibility to contribute across
+scientific computing, bioinformatics, and data-driven
+research. I'm passionate about solving problems at the
+intersection of biology and code, and I’m always
+exploring how better tools can drive better science.`}
 
-            
+
 // skills
-const skills={"MD simulation": ["GROMACS","Umbrella Sampling","AMBER", "g_mmpbsa", "MMPBSA.py", "AutoDock Tools","AutoDock4","Vina","Pymol","VMD","chimera","chimeraX","Modeller","SwissModeller","AlphaFold","CaverDock","Rosetta","Avogadro"],
-                "coding":["Python","HTML","CSS","JavaScript","Bash","Numpy","Pandas","Jupyter Lab","VS code","MDAnalysis","nglview","logging","argparse","Prolif","Multiprocess","MatplotLib","Seaborn","Selenium"],
-              "Other":["ssh","slurm","bash scripting","micromamaba","conda","miniconda","Git"]}
+const skills={"Molecular Modeling": ["GROMACS","Umbrella Sampling","AMBER", "g_mmpbsa", "MMPBSA.py", "AutoDock Tools","AutoDock4","Vina","Pymol","VMD","chimera","chimeraX","Modeller","SwissModeller","AlphaFold","CaverDock","Rosetta","Avogadro"],
+                "Programming":["Python","HTML","CSS","JavaScript","Bash","Numpy","Pandas","Jupyter Lab","VS code","MDAnalysis","nglview","logging","argparse","Prolif","Multiprocess","MatplotLib","Seaborn","Selenium"],
+              "Computational Workflows":["ssh","slurm","bash scripting","micromamaba","conda","miniconda","Git"]}
                 
 const project_data ={"Project1":{title:"Enzyme Engineering & Molecular Simulation Workflow",
                                  tools:"GROMACS (AMBER/CHARMM force fields), AutoDock Vina, Modeller, VMD, PyMOL, Chimera, Avogadro, MDAnalysis, ORCA",
@@ -58,7 +72,7 @@ components, improving reproducibility and reducing manual effort.<a href = "http
                                  body :`Developed a web-based tool to generate professional resumes using user-provided JSON data as input. Utilized 
                                  vanilla JavaScript for dynamic content rendering and scalability, and applied modern CSS techniques for clean, 
                                  responsive styling. The application streamlines resume creation for personal websites or job applications, supporting 
-                                 customization and quick updates.<a href = "github.com">github.com</a>` 
+                                 customization and quick updates.<a href = "https://github.com/biocodeit/build-resume">(https://github.com/biocodeit/build-resume)</a>` 
 }}
 
 edu_data={edu1:

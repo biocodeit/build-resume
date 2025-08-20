@@ -30,6 +30,11 @@ linkdin.href = Intro_data.linkdin
 
 IntroMain.append(address,phone,email,github,website,linkdin)
 
+
+summary = document.querySelector("#summary")
+summary.textContent = Intro_data.summary
+
+
 // education
 const eduMain= document.querySelector('.education')
 const EduDegree = document.createElement("div")
