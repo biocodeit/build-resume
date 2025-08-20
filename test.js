@@ -65,7 +65,7 @@ components, improving reproducibility and reducing manual effort.<a href = "http
                                 vanilla JavaScript, including random option generation for each round to maximize learning engagement. Integrated 
                                 3Dmol.js for real-time 3D visualization of amino acid structures and incorporated SVG images for clear, scalable visuals. 
                                 Deployed the site via Netlify, ensuring easy access and sharing. Focused on blending educational value with gamified 
-                                features to support biochemistry students and instructors.<a href = "https://github.com/biocodeit/amino-guesser">(https://github.com/biocodeit/amino-guesser)</a>` 
+                                features to support biochemistry students and instructors.<a href = "https://biocodeit.github.io/amino-guesser/">(https://biocodeit.github.io/amino-guesser/)</a>` 
 },
 "Project5":{title:"Resume Builder- Builds a simple Proffesional Resume ",
                                  tools:"HTML, CSS, JavaScript, GitHub, VS code",
